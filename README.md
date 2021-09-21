@@ -3,7 +3,9 @@
 
 # Math Magicians
 
-> 
+> About
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
+
 ## ScreenShots
 
 
@@ -22,11 +24,12 @@ Deployed to Github Pages
 to use this repo please follow this steps : 
 
 ### Prerequisite
-you need npm to run the webpack commands, if you don't already have it go to this link to install it in your machine [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-### Setup
+you need npm to install dependencies and run the project, if you don't already have it go to this link to install it in your machine [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
+### Setup
 - clone the repo : `https://github.com/ahzia/Math-Magicians.git`
 - run `npm i`
+
 ### Usage
 - run `npm start` to see the changes in your browser
 - Ppen Browser
