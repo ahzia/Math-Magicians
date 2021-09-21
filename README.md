@@ -30,8 +30,8 @@ you need npm to install dependencies and run the project, if you don't already h
 - run `npm i`
 
 ### Usage
-- run `npm start` to see the changes in your browser
-- Ppen Browser
+- run `npm start`
+- Open Browser
 
 
 👤 **Ahmad Zia Yousufi**
