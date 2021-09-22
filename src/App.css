@@ -10,7 +10,7 @@
   background-color: #2B2D41;
 }
 
-.text-first{
+.text-first {
   color: #FD3A55;
 }
 
@@ -18,7 +18,7 @@
   background-color: #4C5076;
 }
 
-.viewer{
+.viewer {
   width: 300px;
   height: 100px;
 }
@@ -33,7 +33,7 @@
   height: 75px
 }
 
-.btn-zero{
+.btn-zero {
   width: 150px;
 }
 
@@ -42,8 +42,6 @@
   font-weight: bold;
   cursor: pointer;
 }
-
-
 
 .App-logo {
   height: 40vmin;
