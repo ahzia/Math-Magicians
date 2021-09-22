@@ -3,19 +3,19 @@
 }
 
 .bg-first {
-  background-color: #FD3A55;
+  background-color: #fd3a55;
 }
 
 .bg-second {
-  background-color: #2B2D41;
+  background-color: #2d2d41;
 }
 
 .text-first {
-  color: #FD3A55;
+  color: #fd3a55;
 }
 
 .text-third {
-  background-color: #4C5076;
+  background-color: #4c5076;
 }
 
 .viewer {
@@ -38,7 +38,7 @@
 }
 
 .btn-rectingle:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 10px 15px;
   font-weight: bold;
   cursor: pointer;
 }
