@@ -2,6 +2,49 @@
   text-align: center;
 }
 
+.bg-first {
+  background-color: #FD3A55;
+}
+
+.bg-second {
+  background-color: #2B2D41;
+}
+
+.text-first{
+  color: #FD3A55;
+}
+
+.text-third {
+  background-color: #4C5076;
+}
+
+.viewer{
+  width: 300px;
+  height: 100px;
+}
+
+.calculator {
+  width: 300px;
+  height: 500px;
+}
+
+.btn-rectingle {
+  width: 75px;
+  height: 75px
+}
+
+.btn-zero{
+  width: 150px;
+}
+
+.btn-rectingle:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +57,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,18 +65,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }
