@@ -3,11 +3,15 @@
 }
 
 .bg-first {
-  background-color: #fd3a55;
+  background-color: #858694;
 }
 
 .bg-second {
-  background-color: #2d2d41;
+  background-color: #e0e0e0;
+}
+
+.bg-temp{
+  background-color: #F5913E;
 }
 
 .text-first {
@@ -25,7 +29,8 @@
 
 .calculator {
   width: 300px;
-  height: 500px;
+  height: 475px;
+  color: black;
 }
 
 .btn-rectingle {
