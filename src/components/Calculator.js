@@ -1,8 +1,8 @@
-import { Component } from "react";
-import calculate from "../logic/calculate";
+import { Component } from 'react';
+import calculate from '../logic/calculate';
 // eslint-disable-next-line react/prefer-stateless-function
 export default class Calculator extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       obj: {
@@ -17,9 +17,10 @@ export default class Calculator extends Component {
   handleClick = (e) => {
     const buttonName = e.target.id;
     this.setState((state) => ({
-      obj:calculate(state.obj, buttonName),
+      obj: calculate(state.obj, buttonName),
     }));
   }
+
   render() {
     return (
       <div className="container">
@@ -52,10 +53,10 @@ export default class Calculator extends Component {
             <div id="-" className="btn-rectingle d-flex justify-content-center align-items-center border bg-temp">-</div>
           </div>
           <div className="d-flex">
-            <div id="1"  className="btn-rectingle d-flex justify-content-center align-items-center border">1</div>
-            <div id="2"  className="btn-rectingle d-flex justify-content-center align-items-center border">2</div>
-            <div id="3"  className="btn-rectingle d-flex justify-content-center align-items-center border">3</div>
-            <div id="+"  className="btn-rectingle d-flex justify-content-center align-items-center border bg-temp">+</div>
+            <div id="1" className="btn-rectingle d-flex justify-content-center align-items-center border">1</div>
+            <div id="2" className="btn-rectingle d-flex justify-content-center align-items-center border">2</div>
+            <div id="3" className="btn-rectingle d-flex justify-content-center align-items-center border">3</div>
+            <div id="+" className="btn-rectingle d-flex justify-content-center align-items-center border bg-temp">+</div>
           </div>
           <div className="d-flex">
             <div id="0" className="btn-rectingle btn-zero d-flex justify-content-center align-items-center border">0</div>
