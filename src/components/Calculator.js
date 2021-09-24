@@ -1,13 +1,7 @@
 import { Component } from 'react';
 import calculate from '../logic/calculate';
 import CalculatorButton from './CalcultorButton';
-import PropTypes from 'prop-types';
 
-CalculatorButton.propTypes = {
-  buttonName: PropTypes.string,
-  handleClick: PropTypes.func,
-  className: PropTypes.string,
-};
 // eslint-disable-next-line react/prefer-stateless-function
 export default class Calculator extends Component {
   constructor(props) {
