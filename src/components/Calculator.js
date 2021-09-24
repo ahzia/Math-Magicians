@@ -16,8 +16,8 @@ export default class Calculator extends Component {
 
   handleClick = (e) => {
     const buttonName = e.target.id;
-    const keys= '0123456789AC+/-x.=';
-    if(buttonName!=='' && keys.includes(buttonName)){
+    const keys = '0123456789AC+/-x.=';
+    if (buttonName !== '' && keys.includes(buttonName)) {
       this.setState((state) => ({
         obj: calculate(state.obj, buttonName),
       }));
@@ -25,11 +25,12 @@ export default class Calculator extends Component {
   }
 
   render() {
-    const {total, next, operation} = this.state.obj;
+    /* eslint-disable-next-line react/destructuring-assignment */
+    const { total, next, operation } = this.state.obj;
     return (
       <div className="container">
         {/* The <div> element has a child elements that allows keyboard interaction */}
-        {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}  
+        {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
         <div onClick={this.handleClick} onKeyDown={this.handleClick} role="presentation" className="calculator bg-second d-flex flex-column">
           <div className="bg-first viewer d-flex">
             <div className="col-2 p-3">
