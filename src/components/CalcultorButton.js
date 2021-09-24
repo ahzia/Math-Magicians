@@ -1,6 +1,7 @@
-import PropTypes from 'prop-types';
 import { Component } from 'react';
 
+/* eslint react/destructuring-assignment: 0 */
+/* eslint react/prop-types: 0 */
 // eslint-disable-next-line react/prefer-stateless-function
 export default class CalculatorButton extends Component {
   constructor(props) {
@@ -10,17 +11,13 @@ export default class CalculatorButton extends Component {
 
   handleClick = (e) => {
     const buttonName = e.target.id;
-    /* eslint-disable-next-line react/destructuring-assignment */
     this.props.handleClick(buttonName);
   }
 
   render() {
-    /* eslint-disable-next-line react/destructuring-assignment */
     const className = `btn-rectingle d-flex justify-content-center align-items-center border ${this.props.className}`;
     return (
-    /* eslint-disable-next-line react/destructuring-assignment */
       <div id={this.props.buttonName} onClick={this.handleClick} onKeyDown={this.handleClick} role="button" className={className} tabIndex={0}>
-    {/* eslint-disable-next-line react/destructuring-assignment */}
         {this.props.buttonName}
       </div>
     );
