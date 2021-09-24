@@ -1,6 +1,13 @@
 import { Component } from 'react';
 import calculate from '../logic/calculate';
 import CalculatorButton from './CalcultorButton';
+import PropTypes from 'prop-types';
+
+CalculatorButton.propTypes = {
+  buttonName: PropTypes.string,
+  handleClick: PropTypes.func,
+  className: PropTypes.string,
+};
 // eslint-disable-next-line react/prefer-stateless-function
 export default class Calculator extends Component {
   constructor(props) {
@@ -37,33 +44,33 @@ export default class Calculator extends Component {
             </div>
           </div>
           <div className="d-flex">
-            <CalculatorButton buttonName='AC' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='+/-' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='%' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='÷' handleClick={this.handleClick} className='bg-temp'/>
+            <CalculatorButton buttonName="AC" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="+/-" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="%" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="÷" handleClick={this.handleClick} className="bg-temp" />
           </div>
           <div className="d-flex">
-            <CalculatorButton buttonName='7' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='8' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='9' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='x' handleClick={this.handleClick} className='bg-temp'/>
+            <CalculatorButton buttonName="7" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="8" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="9" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="x" handleClick={this.handleClick} className="bg-temp" />
           </div>
           <div className="d-flex">
-            <CalculatorButton buttonName='4' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='5' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='6' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='-' handleClick={this.handleClick} className='bg-temp'/>
+            <CalculatorButton buttonName="4" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="5" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="6" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="-" handleClick={this.handleClick} className="bg-temp" />
           </div>
           <div className="d-flex">
-            <CalculatorButton buttonName='1' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='2' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='3' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='+' handleClick={this.handleClick} className='bg-temp'/>
+            <CalculatorButton buttonName="1" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="2" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="3" handleClick={this.handleClick} />
+            <CalculatorButton buttonName="+" handleClick={this.handleClick} className="bg-temp" />
           </div>
           <div className="d-flex">
-            <CalculatorButton buttonName='0' handleClick={this.handleClick} className='btn-zero'/>
-            <CalculatorButton buttonName='.' handleClick={this.handleClick}/>
-            <CalculatorButton buttonName='=' handleClick={this.handleClick} className='bg-temp'/>
+            <CalculatorButton buttonName="0" handleClick={this.handleClick} className="btn-zero" />
+            <CalculatorButton buttonName="." handleClick={this.handleClick} />
+            <CalculatorButton buttonName="=" handleClick={this.handleClick} className="bg-temp" />
           </div>
         </div>
       </div>
