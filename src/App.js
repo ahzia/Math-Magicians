@@ -15,9 +15,23 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
       <Router>
+      <header className="App-header">
+        <h1>Math Magiicianss</h1>
+      <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/quote">Quote</Link>
+            </li>
+            <li>
+              <Link to="/calculator">Calculator</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
         <Switch>
           <Route path="/calculator">
             <CalculatorPage />
