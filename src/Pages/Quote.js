@@ -4,6 +4,6 @@ const Quote = () => (
       Without mathematics, there’s nothing you can do.
       Everything around you is mathematics. Everything around you is numbers.
     </h3>
-  </section>   
+  </section>
 );
 export default Quote;
