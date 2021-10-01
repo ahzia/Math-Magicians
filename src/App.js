@@ -1,16 +1,14 @@
-import React from "react";
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
-} from "react-router-dom";
-// import Calculator from './components/Calculator';
+  Link,
+} from 'react-router-dom';
 import Home from './Pages/Home';
 import Quote from './Pages/Quote';
 import CalculatorPage from './Pages/CalculatorPage';
-import './App.css'
-
+import './App.css';
 
 function App() {
   return (
@@ -18,13 +16,13 @@ function App() {
       <Router>
       <header className="App-header">
         <h3 className='text-first'>Math Magicianss</h3>
-      <nav>
+        <nav>
           <ul>
             <li>
-              <Link to="/" className='text-first'>Home</Link> |
+              <Link to="/" className='text-first'>Home</Link>
             </li>
             <li>
-              <Link to="/quote" className='text-first'>Quote</Link> |
+              <Link to="/quote" className='text-first'>Quote</Link>
             </li>
             <li>
               <Link to="/calculator" className='text-first'>Calculator</Link>
@@ -45,9 +43,6 @@ function App() {
         </Switch>
       </Router>
     </div>
-    
   );
- 
 }
-
 export default App;
