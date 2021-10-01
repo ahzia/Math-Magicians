@@ -6,16 +6,16 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 10px;
-  border-bottom: 1px solid black;;
+  border-bottom: 1px solid black;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
 }
 
 h3 {
-  width:600px;
+  width: 600px;
 }
 
 ul {
@@ -45,7 +45,7 @@ li a {
   width: 300px;
   height: 100px;
   font-size: 20px;
-  color:white;
+  color: white;
 }
 
 .calculator {
