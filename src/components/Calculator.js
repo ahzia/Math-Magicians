@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
+import CalculatorScreen from './CalculatorScreen';
 import CalculatorButton from './CalcultorButton';
 
 const Calculator = () => {
@@ -17,15 +18,7 @@ const Calculator = () => {
   return (
     <div className="container">
       <div className="calculator bg-second d-flex flex-column">
-        <div className="bg-first viewer d-flex">
-          <div className="col-2 p-3">
-            <p>{caculatorObject.operation}</p>
-          </div>
-          <div className="col-10 d-flex flex-column align-items-end justify-content-between p-3">
-            <p>{caculatorObject.total}</p>
-            <p>{caculatorObject.next}</p>
-          </div>
-        </div>
+        <CalculatorScreen caculatorObject={caculatorObject} />
         <div className="d-flex">
           <CalculatorButton buttonName="AC" handleClick={handleClick} className="text-light" />
           <CalculatorButton buttonName="+/-" handleClick={handleClick} className="text-light" />
