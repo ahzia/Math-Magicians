@@ -11,6 +11,7 @@
 ## Built with
 
 - React.js
+- Bootstap
 
 ## Live Demo
 
