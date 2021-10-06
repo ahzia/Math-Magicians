@@ -17,7 +17,9 @@
 
 Deployed to Github Pages:
 
-[live link](https://ahzia.github.io/Math-Magicians)
+[Github Pages](https://ahzia.github.io/Math-Magicians/)
+[Heroku](https://mathmatic-magic.herokuapp.com/)
+[Netlify](https://priceless-kowalevski-30ed02.netlify.app/)
 
 ## Getting Started
 
