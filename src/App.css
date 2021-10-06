@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  width: 600px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.bg-first {
+  background-color: #fe396b;
+}
+
+.bg-second {
+  background-color: #2b2d41;
+}
+
+.text-first {
+  color: #fd3a55;
+}
+
+.viewer {
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+.calculator {
+  width: 300px;
+  height: 475px;
+  color: black;
+}
+
+.btn-rectingle {
+  width: 75px;
+  height: 75px;
+}
+
+.btn-zero {
+  width: 150px;
+}
+
+.btn-rectingle:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
