@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-Deployed to Github Pages:
+Deployed to 3 Diffrent Servers:
 
 [Github Pages](https://ahzia.github.io/Math-Magicians/)
 
